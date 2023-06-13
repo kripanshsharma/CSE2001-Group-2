@@ -62,7 +62,7 @@ public:
 
             catch (int projectCompleted)
             {
-                cout << "Sorry! You have notfufu  \n\n";
+                cout << "Sorry! You have not completed any projects. No appraisal for you.  \n\n";
             }
 
             try
