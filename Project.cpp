@@ -138,7 +138,7 @@ public:
         this->trophies = trophies;
     }
 
-    void operator>(Bonus temp)
+    void operator>(Bonus temp)//operator function 
     {
         if (trophies > temp.trophies)
         {
