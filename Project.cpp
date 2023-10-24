@@ -101,7 +101,7 @@ public:
 
     ~Manager() {} //destructor
 };
-
+//inheritance 
 class GeneralManager : public virtual Employee
 {
 public:
@@ -162,7 +162,7 @@ void print()
     cout << "Trophies earned by " << a.name << " is: " << a.trophies << endl;
     cout << "Trophies earned by " << b.name << " is: " << b.trophies << endl;
 }
-
+//driver function
 int main()
 {
     Bonus c1 = Bonus(200186, "Bob", 6);
